@@ -40,7 +40,7 @@ public class PinDialog extends CordovaPlugin {
                     AlertDialog.Builder dlg = new AlertDialog.Builder(cordova.getActivity());
                     dlg.setMessage(message);
                     dlg.setTitle(title);
-                    dlg.setCancelable(true);
+                    dlg.setCancelable(false);
                     
                     dlg.setView(promptInput);
                     
