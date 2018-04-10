@@ -11,12 +11,9 @@ or ```cordova plugin add cordova-plugin-pin-dialog```
 Current state from git: ```phonegap local plugin add https://github.com/Paldom/PinDialog.git```  
 or ```cordova plugin add https://github.com/Paldom/PinDialog.git```
 
-## Installation - PhoneGap Build 
 
-Add following to config.xml: ```<gap:plugin name="cordova-plugin-pindialog" source="npm" />```
-
-For older versions, use the following:  ```<gap:plugin name="hu.dpal.phonegap.plugins.pindialog" version="0.1.3" />```
-or ```<gap:plugin name="hu.dpal.phonegap.plugins.pindialog" source="plugins.cordova.io" />```
+Version with disable closing by back button on Android:
+```cordova plugin add https://github.com/Sveta-K13/PinDialog.git```
 
 ## Supported Platforms
 
